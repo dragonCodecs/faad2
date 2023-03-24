@@ -114,7 +114,7 @@ libfaad_link_args += compiler.get_supported_link_arguments(
 )
 
 libfaad = library(
-	'libfaad',
+	'faad',
 	libfaad_srcs,
 	extra_files: libfaad_srcs_headers,
 	include_directories: libfaad_includes,
@@ -132,7 +132,7 @@ if with_drm
 	]
 
 	libfaad_drm = library(
-		'libfaad_drm',
+		'faad_drm',
 		libfaad_srcs,
 		extra_files: libfaad_srcs_headers,
 		c_args: libfaad_drm_args,
