@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Amyspark <amy@amyspark.me>
+# SPDX-License-Identifier: BSD-3-Clause
+
+option('drm', type: 'boolean', value: true, description: 'Compile libfaad with Digital Radio Mondiale support')
+option('drc', type: 'boolean', value: true, description: 'Compile libfaad with Dynamic Range Compression support')
+option('mpeg4ip', type: 'boolean', value: false, description: 'Compile mpeg4ip plugin')
+option('mpeg4ip_player_plugin_dir', type: 'string', value: '', description: 'mpeg4ip plugin installation folder')
