@@ -8,6 +8,7 @@ project(
 	license: 'GPL-2.0-or-later',
 	default_options: [
 		'c_std=c99',
+		'b_lundef=true',
 	],
 	meson_version: '>=0.56.0',
 )

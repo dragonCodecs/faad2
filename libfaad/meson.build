@@ -109,10 +109,6 @@ libfaad_srcs_headers = files(
 
 libfaad_link_args = []
 
-libfaad_link_args += compiler.get_supported_link_arguments(
-	'-no-undefined',
-)
-
 libfaad = library(
 	'faad',
 	libfaad_srcs,
